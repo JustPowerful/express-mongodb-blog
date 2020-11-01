@@ -44,4 +44,5 @@ articleSchema.pre('validate', function(next) {
     next()
 })
 
+// Exporting the schema
 module.exports = mongoose.model('Article', articleSchema)
